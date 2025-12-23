@@ -37,21 +37,4 @@
         <maven.compiler.release>17</maven.compiler.release>
         <exec.mainClass>com.vuphuong.math_util.main.Main</exec.mainClass>
     </properties>
-    <build>
-        <plugins> 
-            <plugin> 
-                <groupId> com.vuphuong</groupId>
-                <artifactId> math_util</artifactId>
-                <version> 1.0</version>
-                <configuration> 
-                    <archive>
-                        <manifest>
-                            <mainclass>com.vuphuong.math_util.main.Main</mainclass>
-                        </manifest>
-                    </archive>
-                </configuration>
-            </plugin>
-        </plugins>
-            
-    </build>
-</project>
+    </project>
